@@ -1,0 +1,644 @@
+@font-face {
+	src: url('../fonts/OpenSans-Regular.ttf');
+	font-family: 'OpenSans Regular';
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-Italic.ttf');
+	font-family: 'OpenSans Italic';
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-Bold.ttf');
+	font-family: 'OpenSans Bold';
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-SemiBold.ttf');
+	font-family: 'OpenSans SemiBold';
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-ExtraBold.ttf');
+	font-family: 'OpenSans ExtraBold';
+}
+
+body {
+	margin: 0;
+	font-family: 'OpenSans Regular', Helvetica, Arial, sans-serif;
+}
+
+main {
+	overflow: hidden;
+	}
+/* подложка  блока интро */
+.header-wrapper 
+.intro-out-wrapper {
+	background-color: rgb(246, 242, 242);
+}
+/* Блок интро меню*/
+header {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1249px;
+	min-height: 89px;
+	margin: 0 auto;
+	margin-top: 29px;
+	background-color:rgb(0, 0, 0);
+}
+
+.menu-elements {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	/* ручная подгонка под макет*/
+	position: relative;
+	right: 20px;
+}
+
+.menu-elements > a {
+	padding: 39px 30px 30px;
+	color: rgb(255, 255, 255);
+	font-family: 'OpenSans Regular';
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.menu-elements > a:hover {
+background-color: rgb(255, 63, 64);
+}
+/* Блок интро текст и фото*/
+.intro {
+	display: flex;
+	flex-wrap: wrap;
+	background-color:rgb(246, 242, 242);
+	padding-top: 102px;
+	padding-bottom: 111px;
+	justify-content: space-between;
+	align-items: flex-start;
+	max-width: 1249px;
+	margin: 0 auto;
+}
+
+.intro-wrapper {
+	position: relative;
+    bottom: 11px;
+	width: 617px;
+	vertical-align: top;
+	margin-bottom: 20px;
+	margin-right: 75px;
+}
+
+.intro-head {
+	margin: 0;
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+	font-family: 'OpenSans ExtraBold';
+}
+
+.intro-text {
+	max-width: 520px;
+	margin-bottom: 51px;
+	opacity: 0.7; 
+}
+
+.intro-link {
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	font-family: 'OpenSans Bold';
+	display: inline-block;
+	background-color: rgb(255, 45, 45);
+	width: 227px;
+	padding: 16px 0;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.intro-image {
+	width: 551px;
+	height: 356px;
+}
+/*Блок про сервисы*/
+.Services-out-wrapper{
+	background-color:rgb(255, 255, 255);
+}
+
+.Servises {
+	display: flex;
+	max-width: 1249px;
+	margin: 0 auto;
+	margin-top: 108px
+}
+
+.Services-left-wrapper{
+	max-width: 531px;
+	margin-right: 103px;
+}
+
+.Services-right-wrapper{
+	max-width: 643px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Services-left-wrapper h1 {
+	margin: 0;
+	margin-bottom: 50px;
+	font-size: 43px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'OpenSans ExtraBold';
+	color: rgb(88, 88, 88);
+}
+
+.Services-left-wrapper p {
+	margin-bottom: 
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 'OpenSans Regular';
+	margin-bottom: 64px;
+	
+}
+
+.Services-left-wrapper a {
+	box-sizing: border-box;
+	color: rgb(255, 45, 45);
+	font-size: 18px;
+	font-family: 'OpenSans Bold';
+	font-weight: bold;
+	width: 227px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 15px 60px 15px 60px;
+	border: 2px solid #ff3f40;
+	border-radius: 5px;
+}
+
+.Service {
+	width:50%;
+}	
+
+.Service img {
+	margin: 0px, 0px,23px;
+}
+
+.Service h3 {
+	font-size: 22px;
+	font-family: 'OpenSans SemiBold';
+	font-weight: bold;
+	margin: 0px, 0px,10px;
+}
+
+.Service p {
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 'OpenSans Regular';
+	opacity:0,7;
+}
+
+.Service-line{
+	margin-top: 112px;
+	color: rgb(236, 236, 236);
+	width: 1249px;
+	text-align: center;
+}
+/*Блок про продукты*/
+.Products-out-wrapper{
+	background-color:rgb(255, 255, 255);
+	max-width: 1249px;
+	margin: 0 auto;
+	margin-top: 104px;
+	}
+
+	.Product-menu{
+		margin-bottom: 50px;
+	}
+
+.Product-menu h2 {
+	text-align: center;
+	position: relative;
+	font-family: 'OpenSans Bold';
+	font-weight: bold;
+	font-size: 42px;
+	margin-bottom: 20px;
+	color: rgb(88, 88, 88);
+}
+
+.Product-menu p {
+	text-align: center;
+	position: relative;
+	font-family:'OpenSans Regular';
+	font-style: normal;
+	font-size: 16px;
+	opacity: 0.7;
+	margin-bottom: 30px;
+}
+
+.Product-menu ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	list-style:none;
+}
+
+.Product-line{
+	margin-bottom: 86px;
+	height: 3px;
+	width:134px;
+	background-color:rgb(255, 45, 45);
+}
+
+.Product-menu a {
+	text-decoration: none;
+	margin-right: 55px;
+	font-family: 'OpenSans SemiBold';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	color: rgb(0, 0, 0);
+}
+
+.Product-menu a:hover {
+	color: rgb(255, 63, 64);
+}
+/*не работает - непонимаю как повысить важность 
+@media не помог*/
+ .Menu-point{
+ 	color: rgb(255, 45, 45);
+}
+
+.product-images{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	min-width: 299; 
+	height:291;
+	margin: 0px, 0px, 18px;	
+}
+
+.product-images img {
+	margin-bottom:18px;
+}
+/*Блок про команду*/
+.team-out-wrapper{
+	background-color:rgb(255, 255, 255);
+	max-width: 1249px;
+	margin: 0 auto;
+	margin-top: 104px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.team-text-wrapper{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 67px;
+}
+
+.team-text-wrapper h1{
+	font-family: 'OpenSans Bold';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	color: rgb(88, 88, 88);
+}
+
+.team-text-wrapper p {
+	font-family: 'OpenSans Regular';
+	font-style: normal;
+	font-size: 16px;
+	margin-top: 14px;	
+}
+
+.team-line {
+	position: absolute;
+	height: 3px;
+	width:134px;
+	background-color:rgb(255, 45, 45);
+}
+
+.team-people-wrapper{
+display: flex;
+flex-wrap: wrap;
+align-items: flex-end;
+position: relative;
+}
+
+.team-main-member{
+	width: 321px;
+	height: 458px;
+	margin-right: 65px;
+	background-color: rgba(235,109,74,0.56);
+}
+
+.people-text-wrapper {
+	position: absolute;
+	top:0px;
+	left: 380px;
+}
+
+.people-text-wrapper h2 {
+	font-family: 'OpenSans SemiBold';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.people-text-wrapper p {
+	font-family: 'OpenSans Regular';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.People-cocial a {
+	margin-right: 50px;
+	font-family: 'OpenSans italic';
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	position: relative;
+}
+
+.member {
+position: relative;
+margin-right: 14px;
+}
+
+.member img {
+	width: 197px;
+	height:214px;
+	background-color: rgba(212,220,230,0.5);
+}
+
+.member h3 {
+	visibility: hidden;
+	position: absolute;
+	bottom: 0;
+	color: #ffffff;
+	font-family: 'OpenSans Regular';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	width: 100%;
+	height: 37px;
+    text-align: center;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.member:hover > h3 {
+	visibility: visible;
+}
+/*форма обратной связи 1   */
+  .form1-out-wrapper {
+  	box-sizing: border-box;
+	width: 100%;
+  	margin-top: 100px;
+  	background-color: rgb(44, 44, 44);
+  	display:block;
+  	padding-bottom: 120px;
+  	padding-bottom: 120px;
+	margin-bottom: 104px;
+} 
+
+  .form1-text-wrapper {
+  	display: flex;
+    max-width: 1249px;
+  	margin: 0 auto;
+  	text-align: center;
+	flex-direction:column;
+}
+   
+   .form1-text-wrapper h1 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+    margin-top: 120px;
+    font-family: 'Open Sans';
+    font-size: 42px;
+}
+
+   .form1-text-wrapper p {
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    margin-bottom: 50px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+   .form1-email-wrapper{
+	max-width: 1249px;
+  	margin: 0 auto;
+   	text-align: center;
+ 	align-items: flex-end;
+}
+   
+   .form1-email-wrapper input {
+   	width: 521px;
+   	height: 79px;
+   	margin-right: 19px;
+   	background-color: rgb(255, 255, 255);
+   	border-radius: 5px;
+   	border: none;
+   	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+ .form1-email-wrapper button {
+ 	width: 214px;
+   	height: 79px;
+   	background-color: rgb(255, 45, 45);
+   	border: none;
+   	border-radius: 5px;
+   	font-family: 'OpenSans Regular';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+}
+/*форма обратной связи 2   */
+.feedback-contacts-wrapper{
+	background-color:rgb(255, 255, 255);
+	max-width: 1249px;
+	margin: 0 auto;
+	width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.feedback-wrapper{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 67px;
+}
+
+.feedback-wrapper h1{
+	font-family: 'OpenSans bold';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	color: rgb(88, 88, 88);
+	margin bottom: 45px;
+}
+
+.feedback-wrapper p {
+	font-family: 'OpenSans Regular';
+	font-style: normal;
+	font-size: 16px;
+}
+
+.feedback-line {
+	position: absolute;
+	height: 3px;
+	width:134px;
+	background-color:rgb(255, 45, 45);
+}
+
+.feedback-form {
+	display: flex;
+	max-width: 735px;
+	flex-direction:column;
+	position: relative;
+	flex-wrap: wrap;
+}
+
+.input1 {
+	width: 339px;
+	height: 69px;
+	margin-right: 51px;
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(243, 243, 243);
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.input2 {
+	width: 339px;
+	height: 69px;
+	position: absolute;
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(243, 243, 243);
+	font-family: 'OpenSans Regular';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.input3 {
+	width: 735px;
+	height: 252px;
+	margin-top: 45px;
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(243, 243, 243);
+	font-size: 16px;
+	font-family: 'OpenSans Regular';
+	font-style: normal;
+	font-weight: normal;
+	margin-bottom: 45px;
+}
+
+.feedback-form button{
+	width: 735px;
+	height: 82px;
+	background-color: rgb(255, 45, 45);
+	border: none;
+	border-radius: 5px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	font-family: 'OpenSans bold';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.contacts-wrapper {
+	position:absolute;
+	left: 850px;
+	box-sizing: border-box;
+	width:780px;
+	height: 495px;
+	background-color: rgb(45, 45, 45);
+}
+
+.contacts {
+	margin-left: 81px;
+	margin-top: 141px;
+}
+
+.contacts h2 {
+	color: rgb(224, 224, 224);
+    font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.contacts p {
+	font-family: 'OpenSans Regular';
+    font-size: 16px;
+    color: rgb(224, 224, 224);
+    font-style: italic;
+}
+/*Футер*/
+footer {
+	background-color: rgb(44, 44, 44);
+}
+
+.footer-wrapper {
+	box-sizing: border-box;
+	padding: 19px 0 0;
+	color: rgb(224, 224, 224);
+	min-height: 110px;
+	background-color: rgb(44, 44, 44);
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 1249px;
+	justify-content: space-between;
+}
+
+.footer-wrapper p {
+	font-family: 'OpenSans Regular';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.footer-social-links a {
+	margin-right: 18px;
+	text-decoration: none;
+}
